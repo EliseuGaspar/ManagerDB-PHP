@@ -1,0 +1,21 @@
+{
+    "name":"eliseugaspar/managerdb",
+    "description":"ManagerDB is a sample package of php for manipulate databases with : SQLITE, Mysql and PostgreSQL",
+    "type":"libray",
+    "licence":"MIT",
+    "authors":[
+        {
+            "name":"Eliseu Gaspar",
+            "email":"eliseugaspar4@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Conectors\\":"src/"
+        }
+    },
+    "require":{
+        "php": ">= 7.0"
+    }
+    
+}
